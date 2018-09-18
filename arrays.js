@@ -20,8 +20,8 @@ function destructivelyAddElementToEndOfArray(array, element){
   return array
 }
 
-function accessElementInArray() {
-
+function accessElementInArray(array, index) {
+  retun array[index]
 }
 
 function destructivelyRemoveElementFromBeginningOfArray() {
